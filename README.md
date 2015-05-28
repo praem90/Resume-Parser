@@ -8,3 +8,6 @@ A simple class to parse your resume to obtain fields like name, email, ph, date 
 4.print_r($records);
 
 Error is handled by ParseResume::error,  if($obj->error) echo $obj->error()
+
+
+Supported resume formats doc, docx, xlxs, pptx, pdf
