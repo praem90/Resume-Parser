@@ -24,10 +24,10 @@
                 </li>
                 <li class="divider"></li>
                 <li>
-                <input type="hidden" name="uid" value="<?php echo(_USER_); ?>">
-                <input type="hidden" name="session" value="<?php echo(_ID_); ?>">
-                <input type="hidden" name="ip" value="<?php echo(_IP_); ?>">
-                <input type="hidden" name="ua" value="<?php echo($_SERVER['HTTP_USER_AGENT']); ?>">
+                <input type="hidden" name="uid" value="<?php echo _USER_; ?>">
+                <input type="hidden" name="session" value="<?php echo _ID_; ?>">
+                <input type="hidden" name="ip" value="<?php echo _IP_; ?>">
+                <input type="hidden" name="ua" value="<?php echo $_SERVER['HTTP_USER_AGENT']; ?>">
                 <a class="logout" href="logout.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
                 </li>
             </ul>
