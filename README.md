@@ -3,6 +3,10 @@
 A simple class to parse your resume to obtain fields like name, email, ph, date of birth
 
 1.Just include parser.php
+```
+include /path/to/parser.php
+```
+
 2.Intiate object 
 ```
 $obj = new ParseResume( 'path/to/file' );
